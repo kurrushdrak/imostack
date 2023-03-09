@@ -1,14 +1,11 @@
+import React, { Component } from 'react';
 
-import './App.css';
-import Footer from './components/Footer';
-import Navbar from './components/Navbar';
-
-function App() {
-  return (
-    <div className="App">
-      <Navbar/>
-   
-      <header className="App-header">
+export class Home extends Component {
+  render() {
+    return (
+      <div>
+        <h1>Hello</h1>
+        <header className="App-header">
         <img src="https://images.aasaan.shop/stores/wellstackimo/logo/logo_1660900962711.png"  className="App-logo" alt="logo" />
         <p>
           wellstackimo
@@ -22,9 +19,9 @@ function App() {
           open
         </a>
       </header>
-      <Footer/>
-    </div>
-  );
+      </div>
+    )
+  }
 }
 
-export default App;
+export default Home;
