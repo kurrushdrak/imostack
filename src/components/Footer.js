@@ -4,7 +4,7 @@ export class Footer extends Component {
   render() {
     return (
       <div>
-        <h5><marquee>All copy rights &copy; reverved by wellstackimo</marquee></h5>
+        <h5>All copy rights &copy; reverved by wellstackimo</h5>
       </div>
     )
   }
